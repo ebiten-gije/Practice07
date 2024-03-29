@@ -11,14 +11,16 @@ public class Ractangle extends Shape{
 		this.height=height;
 	}
 	
+	//	추상 클래스 상속시 내부의 추상 메서드는 반드시 구현해야 한다.
+	@Override
 	public void draw(){
 		System.out.println("[사각형]#면색:" +super.fillColor+ " "
 				+ " #가로:" + width 
 				+" #세로:" + height + "그렸습니다.");                                                                        
 	}
 		
-	public void width() {
-		System.out.println("sr1의 가로는 " + width + "입니다.");
+	public int getWidth() {
+		return width;
 	}
 
 }
