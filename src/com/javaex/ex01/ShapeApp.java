@@ -2,6 +2,7 @@ package com.javaex.ex01;
 
 public class ShapeApp {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 
 //		Shape s = new Shape("빨강");		//	추상 클래스는 객체화할 수 없다.
